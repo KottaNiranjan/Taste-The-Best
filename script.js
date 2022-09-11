@@ -43,36 +43,43 @@ function closeNav() {
 function search(){
   let loc = window.location.href;
   let pos = loc.indexOf('x');
-  let r=document.getElementById("search_item").value;
-  r=r.toUpperCase();
+  let p=document.getElementById("search_item").value;
+  r=p.toUpperCase();
   if(r=="INDIAN"){
  // window.location.assign(loc.replace("x.html", "x2.html"));
     window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index2.html")
   }
   else if(r=="CHINESE"){
-    window.location.assign(loc.replaceAt(pos, "x3.html"));
+    //window.location.assign(loc.replaceAt(pos, "x3.html"));
+    window.loaction.replace("https://kottaniranjan.github.io/Taste-The-Best/index3.html")
   }
   else if(r=="ITALIAN"){
-    window.location.assign(loc.replaceAt(pos,"x4.html"));
+    //window.location.assign(loc.replaceAt(pos,"x4.html"));
+    window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index4.html")
   }
   else if(r=="AMERICAN")
   {
-    window.location.assign(loc.replaceAt(pos,"x5.html"));
+   // window.location.assign(loc.replaceAt(pos,"x5.html"));
+    window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index5.html")
   }
   else if(r=="VEG"){
-    window.location.assign(loc.replaceAt(pos,"x6.html"));
+   // window.location.assign(loc.replaceAt(pos,"x6.html"));
+    window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index6.html")
   }
   else if(r=="DESSERT"){
-    window.location.assign(loc.replaceAt(pos,"x7.html"));
+    //window.location.assign(loc.replaceAt(pos,"x7.html"));
+    window.loaction.replace("https://kottaniranjan.github.io/Taste-The-Best/index7.html")
   }
   else if(r=="HEALTHY"){
-    window.location.assign(loc.replaceAt(pos,"x8.html"));
+    //window.location.assign(loc.replaceAt(pos,"x8.html"));
+    window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index8.Html")
   }
   else if(r=="VEGAN"){
-    window.location.assign(loc.replaceAt(pos,"x9.html"));
+   // window.location.assign(loc.replaceAt(pos,"x9.html"));
+    window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index9.html")
   }
   else{
-    document.getElementById("res").innerHTML=`0 results for ${r}. Please try another search`
+    document.getElementById("res").innerHTML=`0 results for ${p}. Please try another search`
   }
 
 }
