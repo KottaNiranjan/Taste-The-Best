@@ -68,7 +68,7 @@ function search(){
   }
   else if(r=="DESSERT"){
     //window.location.assign(loc.replaceAt(pos,"x7.html"));
-    window.loaction.replace("https://kottaniranjan.github.io/Taste-The-Best/index7.html")
+    window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index7.html")
   }
   else if(r=="HEALTHY"){
     //window.location.assign(loc.replaceAt(pos,"x8.html"));
