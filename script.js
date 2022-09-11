@@ -46,7 +46,8 @@ function search(){
   let r=document.getElementById("search_item").value;
   r=r.toUpperCase();
   if(r=="INDIAN"){
-  window.location.assign(loc.replace("x.html", "x2.html"));
+ // window.location.assign(loc.replace("x.html", "x2.html"));
+    window.location.replace("https://kottaniranjan.github.io/Taste-The-Best/index2.html")
   }
   else if(r=="CHINESE"){
     window.location.assign(loc.replaceAt(pos, "x3.html"));
